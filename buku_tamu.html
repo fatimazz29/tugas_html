@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Buku Tamu</title>
+</head>
+<body>
+    <h1>Form Buku Tamu</h1>
+    <form action="#" method="post">
+        <label for="nama">Nama Lengkap:</label><br>
+        <input type="text" name="nama" id="nama" style="width: 30%;"> <br><br>
+
+        <label for="jk">Jenis Kelamin:</label><br>
+        <label>Laki-laki<input type="radio" name="jenis_kelamin" value="L"></label>
+        <label>Perempuan<input type="radio" name="jenis_kelamin" value="P"></label><br><br>     
+        
+        <label for="alamat">Alamat Tinggal:</label><br>
+        <input type="text" name="Alamat" id="Alamat" style="width: 30%;"><br><br>
+
+        <label for="Email">Email:</label><br>
+        <input type="text" name="email" id="email" style="width: 30%;"><br><br>
+
+        <label>Aktif Pada Sosial Media:</label><br>
+        <input type="checkbox" name="facebook" id="media_sosial" value="facebook">Facebook
+        <input type="checkbox" name="twitter" id="media_sosial" value="twitter">Twitrer
+        <input type="checkbox" name="instagram" id="media_sosial" value="instagram">Instagram
+        <input type="checkbox" name="path" id="media_sosial" value="path">Path <br><br>
+
+        <label for="referensi">Mengetahui Web Ini dari:</label><br>
+        <select id="referensi" name="referensi">
+            <option>~= Pilih =~</option>
+            <option value="google">Google</option>
+            <option value="teman">Teman</option>
+            <option value="iklan">Iklan</option>
+        </select><br><br>
+
+        <label for="pesan">Pesan:</label><br>
+        <textarea id="pesan" name="pesan" rows="4" cols="50"></textarea><br><br>
+
+        <button type="submit">Kirim</button>
+        <button type="reset">Batal</button><br><br>
+
+        <a href="http://127.0.0.1:5500/About.html" target="_blank" title="Nama : Siti Fatima Azzahro">About Fatima</a>
+    </form>
+</body>
+</html>
